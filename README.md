@@ -1,0 +1,1 @@
+This is the Java source code for Softnet ASN.1 Codec. It was developed as part of the Softnet project, but can also be used on its own. The product does not yet support ASN.1 compiler features, which is the subject of further product development. To use the codec in applications, include the jar file “asncodec.jar” and import the ‘softnet.asn’ package.
