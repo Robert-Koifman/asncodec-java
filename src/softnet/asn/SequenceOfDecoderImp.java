@@ -92,12 +92,6 @@ class SequenceOfDecoderImp implements SequenceOfDecoder
     	m_offset += V_Length;
 	}
 	
-    public void end() throws EndNotReachedAsnException
-    {
-    	if (m_offset < data_end)
-            throw new EndNotReachedAsnException();
-    }
-
     public boolean isNull() throws FormatAsnException, EndOfContainerAsnException
 	{
         if (m_offset == data_end)

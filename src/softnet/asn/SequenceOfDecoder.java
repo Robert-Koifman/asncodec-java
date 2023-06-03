@@ -30,7 +30,6 @@ public interface SequenceOfDecoder {
 	int count() throws FormatAsnException;
 	boolean hasNext();
 	void skip() throws AsnException;
-	void end() throws EndNotReachedAsnException;	
 	boolean isNull() throws AsnException;
 	
 	SequenceDecoder Sequence() throws AsnException;
