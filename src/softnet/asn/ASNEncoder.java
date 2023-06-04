@@ -51,8 +51,6 @@ public class ASNEncoder
         if(binStack.position() == 0)
         	return binStack.buffer();
 
-        System.out.println(String.format("Data size estimation error. Binstack position: %d", binStack.position()));
-
         byte[] trimmedBuffer = new byte[binStack.count()];
         System.arraycopy(binStack.buffer(), binStack.position(), trimmedBuffer, 0, binStack.count());
         return trimmedBuffer;
@@ -70,9 +68,7 @@ public class ASNEncoder
         
         if(binStack.position() == prefixSize)
         	return binStack.buffer();
-        
-        System.out.println(String.format("Data size estimation error. Binstack position: %d", binStack.position()));
-        
+                
         byte[] trimmedBuffer = new byte[prefixSize + binStack.count()];
         System.arraycopy(binStack.buffer(), binStack.position(), trimmedBuffer, prefixSize, binStack.count());
         return trimmedBuffer;
