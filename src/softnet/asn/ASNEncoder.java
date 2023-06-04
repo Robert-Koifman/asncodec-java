@@ -29,16 +29,17 @@ package softnet.asn;
 public class ASNEncoder 
 {
     private SequenceEncoderImp sequence;
-	public ASNEncoder() {
-        sequence = new SequenceEncoderImp();
+    
+    public ASNEncoder() {
+	    sequence = new SequenceEncoderImp();
     }
 
-	public int getSize() {
-		return sequence.estimateSize();
-	}
+    public int getSize() {
+        return sequence.estimateSize();
+    }
 	
     public SequenceEncoder Sequence() {
-        return sequence;
+       return sequence;
     }
 
     public byte[] getEncoding()
