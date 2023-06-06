@@ -106,7 +106,7 @@ Returns the encoding size in bytes it will have when the encoding is created. Th
 ```java
     TexpEncoder Texp()
 ```
-The name "**Texp**" is derived from "**T**ag **exp**licit". This method returns an encoder of type <span class="datatype">TexpEncoder</span> that allows an application to add an explicitly tagged element to the current position of the SEQUENCE. The application must provide one and only one element to the encoder. The <span class="datatype">TexpEncoder</span> interface is described in section [Interface TexpEncoder]({% link docs/encoder/api/TexpEncoder.md %});
+The name "**Texp**" is derived from "**T**ag **exp**licit". This method returns an encoder of type <span class="datatype">TexpEncoder</span> that allows an application to add an explicitly tagged element to the current position of the SEQUENCE. The application must provide one and only one element to the encoder. The <span class="datatype">TexpEncoder</span> interface is described in section [Interface TexpEncoder]({{ site.baseurl }}{% link docs/encoder/api/TexpEncoder.md %});
 
 - ### <span class="method">Sequence</span>  
 ```java
@@ -123,7 +123,7 @@ Creates a SEQUENCE encoder of type SequenceEncoder that adds a nested SEQUENCE t
 	SequenceOfEncoder SequenceOf(int tag, UType uType, TagClass tc)
 ```
 Creates a SEQUENCE OF encoder of type <span class="datatype">SequenceOfEncoder</span> that adds a SEQUENCE OF element to the current position of the SEQUENCE and returns the encoder to the application. ASN.1 defines a SEQUENCE OF as an ordered collection of elements of the same type. That is, the elements added by the application to the SEQUENCE OF must be of the ASN.1 universal type specified when the encoder has been created. The encoder interface is described in section 
-[Interface SequenceOfEncoder]({% link docs/encoder/api/SequenceOfEncoder.md %}). The second overloaded <span class="method">SequenceOf</span> method creates an encoder for an implicitly tagged SEQUNCE OF element of ContextSpecific class. And, as usual, the third overload allows an application to specify the tag class other than ContextSpecific;
+[Interface SequenceOfEncoder]({{ site.baseurl }}{% link docs/encoder/api/SequenceOfEncoder.md %}). The second overloaded <span class="method">SequenceOf</span> method creates an encoder for an implicitly tagged SEQUNCE OF element of ContextSpecific class. And, as usual, the third overload allows an application to specify the tag class other than ContextSpecific;
 
 - ### <span class="method">Int32</span>  
 ```java

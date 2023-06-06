@@ -84,7 +84,7 @@ The first method with a "tag" parameter allows an application to check the expli
 
 ### <span class="subsection">A use case for the TexpDecoder interface:</span>
 
-In the end of the "Interface TexpEncoder" section, there is an [example]({% link docs/encoder/api/TexpEncoder.md %}#a-use-case-for-the-texpencoder-interface) that demonstrates the process of encoding a simple Pupil structure. The structure is repeated below. That example uses an explicit tagging to avoid ambiguity when decoding elements of a Pupil instance. Here, we continue that example, and provide the Java code that decodes a Pupil instance.
+In the end of the "Interface TexpEncoder" section, there is an [example]({{ site.baseurl }}{% link docs/encoder/api/TexpEncoder.md %}#a-use-case-for-the-texpencoder-interface) that demonstrates the process of encoding a simple Pupil structure. The structure is repeated below. That example uses an explicit tagging to avoid ambiguity when decoding elements of a Pupil instance. Here, we continue that example, and provide the Java code that decodes a Pupil instance.
 
 ASN.1 syntax of the structure:
 ```

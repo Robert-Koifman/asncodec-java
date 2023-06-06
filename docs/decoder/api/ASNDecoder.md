@@ -21,7 +21,7 @@ The second overload of the <span class="method">Sequence</span> method works in 
 
 ### <span class="subsection">A use case for the ASNDecoder class:</span>
 
-In the end of section "Class ASNEncoder", [A use case for the ASNEncoder class]({% link docs/encoder/api/ASNEncoder.md %}#a-use-case-for-the-asnencoder-class) shows the process of encoding an instance of a data structure that represents a book in the library. To demonstrate the use case for the ASNDecoder class, we provide an example of decoding the ASN.1 encoding created in that example.  
+In the end of section "Class ASNEncoder", [A use case for the ASNEncoder class]({{ site.baseurl }}{% link docs/encoder/api/ASNEncoder.md %}#a-use-case-for-the-asnencoder-class) shows the process of encoding an instance of a data structure that represents a book in the library. To demonstrate the use case for the ASNDecoder class, we provide an example of decoding the ASN.1 encoding created in that example.  
 
 Let's recall the ASN.1 structure that represents a book in the library:
 ```

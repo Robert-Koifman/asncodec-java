@@ -15,9 +15,9 @@
 # in the templates via {{ site.myvariable }}.
 title: Softnet ASN.1 Codec (Java)
 description: The developer's guide to Softnet ASN.1 Codec (Java)
-baseurl: "/asncodec-java" # the subpath of your site, e.g. /blog
-url: "https://robert-koifman.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-repository: robert-koifman/asncodec-java # for github-metadata
+baseurl: "/asncodec-java"
+url: "https://robert-koifman.github.io/asncodec-java"
+repository: robert-koifman/asncodec-java
 
 permalink: pretty
 
