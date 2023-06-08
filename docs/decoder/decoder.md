@@ -6,7 +6,7 @@ has_children: true
 ---
 # Decoder Specification
 
-The Decoder module provides a base decoder class and a set of API interfaces with corresponding implementations to decode an ASN.1 DER encoding. The base decoder implements the entry point where the decoding process starts. It takes an encoding, creates a decoder for the outermost container of a data structure, and returns it to the application. To decode the structure elements, the module provides a set of ASN.1 type decoders available through the API interfaces. It is expected that the encoding represents an instance of a data structure whose elements enclosed in an ASN.1 SEQUENCE container.  
+The Decoder module provides a base decoder class and a set of interfaces with corresponding implementations to decode an ASN.1 DER encoding. The base decoder implements the entry point where the decoding process starts. It takes an encoding, creates a decoder for the outermost container of a data structure, and returns it to the application. To decode the structure elements, the module provides a set of ASN.1 type decoders available through the API. It is expected that the encoding represents an instance of a data structure whose elements enclosed in an ASN.1 SEQUENCE container.  
 
 Here's short descriptions of the Decoder’s base class and interfaces, and the following sections provide their specifications:
 
