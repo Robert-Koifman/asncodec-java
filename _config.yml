@@ -16,8 +16,8 @@
 title: Softnet ASN.1 Codec (Java)
 description: The developer's guide to Softnet ASN.1 Codec (Java)
 baseurl: "/asncodec-java"
-url: "https://robert-koifman.github.io/asncodec-java"
-repository: robert-koifman/asncodec-java
+url: "https://softnet-x.github.io/asncodec-java"
+repository: softnet-x/asncodec-java
 
 permalink: pretty
 
@@ -102,7 +102,7 @@ heading_anchors: true
 # Aux links for the upper right navigation
 aux_links:
   "Softnet ASN.1 Codec (Java) on GitHub":
-    - "//github.com/robert-koifman/asncodec-java"
+    - "//github.com/softnet-x/asncodec-java"
 
 # Makes Aux links open in a new tab. Default is false
 aux_links_new_tab: false
@@ -134,7 +134,7 @@ last_edit_time_format: "%b %e %Y at %I:%M %p" # uses ruby's time format: https:/
 # Footer "Edit this page on GitHub" link text
 gh_edit_link: false # show or hide edit this page link
 gh_edit_link_text: "Edit this page on GitHub"
-gh_edit_repository: "https://github.com/robert-koifman/asncodec-java" # the github URL for your repo
+gh_edit_repository: "https://github.com/softnet-x/asncodec-java" # the github URL for your repo
 gh_edit_branch: "gh-pages" # the branch that your docs is served from
 gh_edit_source: # the source that your files originate from
 gh_edit_view_mode: "tree" # "tree" or "edit" if you want the user to jump into the editor immediately
