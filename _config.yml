@@ -16,8 +16,8 @@
 title: Softnet ASN.1 Codec (Java)
 description: The developer's guide to Softnet ASN.1 Codec (Java)
 baseurl: "/asncodec-java"
-url: "https://softnet-x.github.io/asncodec-java"
-repository: softnet-x/asncodec-java
+url: "https://Softnet-X.github.io/asncodec-java"
+repository: Softnet-X/asncodec-java
 
 permalink: pretty
 
@@ -102,7 +102,7 @@ heading_anchors: true
 # Aux links for the upper right navigation
 aux_links:
   "Softnet ASN.1 Codec (Java) on GitHub":
-    - "//github.com/softnet-x/asncodec-java"
+    - "//github.com/Softnet-X/asncodec-java"
 
 # Makes Aux links open in a new tab. Default is false
 aux_links_new_tab: false
