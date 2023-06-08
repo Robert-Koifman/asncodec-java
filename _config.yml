@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: Softnet ASN.1 Codec (Java)
 description: The Developer's Guide to Softnet ASN.1 Codec (Java)
-baseurl: "/asncodec-java"
+baseurl: "/"
 url: "https://softnet-x.github.io/asncodec-java"
 repository: Softnet-X/asncodec-java
 
